@@ -13,6 +13,7 @@ out/
 # Logs and runtime
 *.log
 logs/
+*.pid
 
 # macOS
 .DS_Store
@@ -27,3 +28,6 @@ logs/
 *.tmp
 *.swp
 *~
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
